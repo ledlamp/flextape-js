@@ -4,7 +4,7 @@ module.exports = {
 	 * @param {any} args 
 	 */
 	slap (...args) {
-		returnstring = "";
+		var returnstring = "";
 		args.forEach(arg => {
 			if (Array.isArray(arg)) {
 				returnstring += arg.join(" ");
